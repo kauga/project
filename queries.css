@@ -104,11 +104,18 @@
   .image {
     width: 90%;
   }
+
+  .try-item1 {
+    column-gap: 1.7rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .image-grid {
     grid-template-columns: 1fr;
+  }
+  .try-item1 {
+    column-gap: 1.4rem;
   }
 }
 
@@ -160,6 +167,10 @@
   .product-div2 {
     width: 100%;
   } 
+
+  .try-item1 {
+    column-gap: 1.1rem;
+  }
 } 
 
 @media screen and (max-width: 400px) {
@@ -216,5 +227,9 @@
   }
   .search {
     padding-left: 20px
+  }
+
+  .try-item1 {
+    column-gap: 1rem;
   }
 }
