@@ -226,10 +226,23 @@
     height: 1.5rem;
   }
   .search {
-    padding-left: 20px
+    padding-left: 30px
   }
 
   .try-item1 {
-    column-gap: 1rem;
+    column-gap: 0.6rem;
+  }
+
+  .sort-trendd {
+    font-family: 0.7rem;
+  }
+
+  .sort-trendd {
+    font-size: 0.9rem;
+  }
+
+  .arranged-items {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
   }
 }
