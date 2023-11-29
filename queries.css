@@ -43,7 +43,32 @@
     margin-right: 1rem;
     padding-left: 0.6rem;
   }
-  
+  /* mobile nav */
+  .mainMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: blue;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  nav .menuClose{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .menuOpen {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 1000px) {

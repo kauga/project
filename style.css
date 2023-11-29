@@ -51,6 +51,7 @@ a {
   padding-left: 25px;
   border: solid 1px #777777;
   border-radius: 14px;
+  margin-left: 1.5rem;
 }
 
 /* .search {
@@ -313,7 +314,7 @@ overflow: auto;
   border: none;
 padding: 5px;
 font: 24px 36px sans-serif;
-width: 1000px;
+width: 1050px;
 height: 470px;
 overflow: auto;
 }
@@ -348,4 +349,53 @@ overflow: auto;
 .try-item2 {
   display: flex;
   column-gap: 2rem;
+}
+.tags-product {
+  font-weight: 200;
+}
+/* mobile navigation once again */
+.menuOpen {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.menuClose {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+/* hellow for fixing header */
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.second-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.woman-log {
+  width: 20%;
+  height: 60%;
+  border-radius: 50%;
+}
+.the-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.mainMenu {
+  display: flex;
+  font-size: 1.1rem;
+  list-style: none;
 }
