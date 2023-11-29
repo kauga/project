@@ -44,7 +44,7 @@
     padding-left: 0.6rem;
   }
   /* mobile nav */
-  .mainMenu {
+  /* .mainMenu {
     position: fixed;
     top: 0;
     left: 0;
@@ -57,9 +57,49 @@
     background-color: blue;
     transition: top 1s ease;
     display: none;
+  } */
+
+  .mainMenu-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  nav .menuClose{
+  .third-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+/* .alarm {
+  width: 6rem;
+  height: 3rem;
+} */
+
+  .woman-log {
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+  }
+
+   .mainNavigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: #fff;
+    transition: top 1s ease;
+    display: none;
+  }
+
+   .menuClose{
     display: block;
     position: absolute;
     top: 20px;
@@ -233,6 +273,8 @@
   .search {
     padding: 0.4rem;
     width: 9rem;
+    padding-left: 30px;
+    margin-left: 1rem;
   }
   .product-div1 {
     width: 100%;
@@ -249,9 +291,6 @@
   .alarm {
     width: 1.5rem;
     height: 1.5rem;
-  }
-  .search {
-    padding-left: 30px
   }
 
   .try-item1 {

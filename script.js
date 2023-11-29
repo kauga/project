@@ -7,7 +7,7 @@
 //   console.log(`kauga huyu`);
 // })
 
-const btnEl = document.querySelector('.mainMenu');
+const btnEl = document.querySelector('.mainNavigation');
 const btnOpen = document.querySelector('.menuOpen');
 const btnClose = document.querySelector('.menuClose');
 
