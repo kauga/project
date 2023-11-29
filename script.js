@@ -21,6 +21,6 @@ function show() {
 }
 
 function close() {
-  btnEl.style.top = '-100%';
+  btnEl.style.top = '-150%';
   console.log(`hellow world`);
 }
